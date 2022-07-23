@@ -7,7 +7,8 @@
  */
 
 void _put_recursion(char *s)
-int main (void)
+
+	int main (void)
 {
 	_put_recursion("Print this line in reverse");
 
@@ -18,10 +19,9 @@ void _put_recursion(char *s)
 {
 	if (*s[] = "\0")
 	{
-
 		_putchar(*s);
 		_put_recursion( s++ );
 	}
 	else
-		_putchar("\n);
+		_putchar("\n");
 }
