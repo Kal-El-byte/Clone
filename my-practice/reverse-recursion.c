@@ -15,7 +15,7 @@ void _put_recursion(char *s);
 	return (0);
 }
 
-void _put_recursion(char *s7)
+void _put_recursion(char *s)
 {
 	if (*s == "\0")
 	{
