@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-void _put_recursion(char *s)
+void _put_recursion(char *s);
 
 	int main (void)
 {
@@ -15,9 +15,9 @@ void _put_recursion(char *s)
 	return (0);
 }
 
-void _put_recursion(char *s)
+void _put_recursion(char *s7)
 {
-	if (*s[] = "\0")
+	if (*s[] == "\0")
 	{
 		_putchar(*s);
 		_put_recursion( s++ );
