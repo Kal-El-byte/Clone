@@ -17,7 +17,7 @@ void _put_recursion(char *s);
 
 void _put_recursion(char *s7)
 {
-	if (*s[] == "\0")
+	if (*s == "\0")
 	{
 		_putchar(*s);
 		_put_recursion( s++ );
